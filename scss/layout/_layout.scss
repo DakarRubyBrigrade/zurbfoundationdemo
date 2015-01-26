@@ -1,0 +1,126 @@
+// header
+/////////////////
+
+header {
+  @include grid-row;
+  .logo {
+    @include grid-column(
+      $columns:12,
+      $center:true
+    );
+
+    @media #{$large} {
+      @include grid-column(
+        $columns:3
+      );
+    }
+  }
+
+  .slogan {
+    @include grid-column(
+      $columns:12,
+      $center:true
+    );
+
+    @media #{$large} {
+      @include grid-column(
+        $columns:9
+      );
+    }
+  }
+}
+
+.featured {
+  @include grid-row;
+  .content_featured {
+    @include grid-column(
+      $columns:12
+    );
+
+    @media #{$medium} {
+      @include grid-column(
+        $columns:6
+      );
+    }
+
+    @media #{$large} {
+      @include grid-column(
+        $columns:8
+      );
+    }
+  }
+
+  .aside_featured {
+    @include grid-column(
+      $columns:12
+    );
+
+    @media #{$medium} {
+      @include grid-column(
+        $columns:6
+      );
+    }
+
+    @media #{$large} {
+      @include grid-column(
+        $columns:4
+      );
+    }
+  }
+}
+
+
+main {
+  @include grid-row();
+  .articles {
+    @include grid-column(
+      $columns:12
+    );
+
+    @media #{$medium} {
+      @include grid-column(
+        $columns:6
+      );
+    }
+
+    @media #{$large} {
+      @include grid-column(
+        $columns:8
+      );
+    }
+
+    article {
+      @include grid-column(
+        $columns:12
+      );
+
+      @media #{$large} {
+        @include grid-column(
+          $columns:6
+        );
+      }
+
+
+    }
+  }
+
+  aside {
+    @include grid-column(
+      $columns:12
+    );
+
+    @media #{$medium} {
+      @include grid-column(
+        $columns:6
+      );
+    }
+
+    @media #{$large} {
+      @include grid-column(
+        $columns:4
+      );
+    }
+  }
+}
+
+

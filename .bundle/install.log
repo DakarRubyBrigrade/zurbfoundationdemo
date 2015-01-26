@@ -1,0 +1,11 @@
+# Logfile created on 2015-01-23 23:05:27 +0000 by logger.rb/31641
+I, [2015-01-23T23:05:27.252872 #8372]  INFO -- : 0:  chunky_png (1.3.3) from /var/lib/gems/1.9.1/specifications/chunky_png-1.3.3.gemspec
+I, [2015-01-23T23:05:27.269899 #8372]  INFO -- : 0:  multi_json (1.10.1) from /var/lib/gems/1.9.1/specifications/multi_json-1.10.1.gemspec
+I, [2015-01-23T23:05:41.156836 #8372]  INFO -- : 0:  sass (3.4.9) from /var/lib/gems/1.9.1/specifications/sass-3.4.9.gemspec
+I, [2015-01-23T23:05:41.191719 #8372]  INFO -- : 0:  compass-core (1.0.1) from /var/lib/gems/1.9.1/specifications/compass-core-1.0.1.gemspec
+I, [2015-01-23T23:05:41.192271 #8372]  INFO -- : 0:  compass-import-once (1.0.5) from /var/lib/gems/1.9.1/specifications/compass-import-once-1.0.5.gemspec
+I, [2015-01-23T23:05:41.192706 #8372]  INFO -- : 0:  rb-fsevent (0.9.4) from /var/lib/gems/1.9.1/specifications/rb-fsevent-0.9.4.gemspec
+I, [2015-01-23T23:06:20.075584 #8372]  INFO -- : 0:  ffi (1.9.6) from /var/lib/gems/1.9.1/specifications/ffi-1.9.6.gemspec
+I, [2015-01-23T23:06:20.114049 #8372]  INFO -- : 0:  rb-inotify (0.9.5) from /var/lib/gems/1.9.1/specifications/rb-inotify-0.9.5.gemspec
+I, [2015-01-23T23:06:20.114624 #8372]  INFO -- : 0:  compass (1.0.1) from /var/lib/gems/1.9.1/specifications/compass-1.0.1.gemspec
+I, [2015-01-23T23:06:20.115061 #8372]  INFO -- : 0:  bundler (1.5.1) from /var/lib/gems/1.9.1/specifications/bundler-1.5.1.gemspec
